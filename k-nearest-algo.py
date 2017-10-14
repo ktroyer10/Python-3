@@ -21,7 +21,7 @@ new_features = [2,1]
 
 
 def k_nearest_neighbors(data, predict, k=3):
-    if len(data) <= k:
+    if len(data) >= k:
         warnings.warn('K is set to a value less than total voting groups! Idiot.')
 
     distances = []
