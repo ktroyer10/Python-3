@@ -59,7 +59,6 @@ plt.scatter(xs, ys)
 plt.plot(xs, regression_line)
 plt.show()
 
-# Getting back into it
 
 
 # ------- R* ---------
